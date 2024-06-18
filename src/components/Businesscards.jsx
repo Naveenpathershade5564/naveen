@@ -1,5 +1,5 @@
 import React from "react";
-import { CardTitle } from "react-bootstrap";
+
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -18,7 +18,7 @@ const data = [
     heading: "Looking For Buyers / Investors For An ..",
     price: "5cr",
   },
-  ,
+ 
   {
     id: 3,
     image: "cherrydeck-05gac-Qn0k4-unsplash.jpg",
@@ -26,7 +26,7 @@ const data = [
     heading: "Seeking Buyers For Marketing And Com",
     price: "8cr",
   },
-  ,
+ 
   {
     id: 4,
     image: "charles-forerunner-3fPXt37X6UQ-unsplash.jpg",
