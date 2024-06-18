@@ -1,0 +1,50 @@
+.containerabc {
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+}
+.subcontainer {
+  /* padding-left: 65px;
+  padding-right: 65px; */
+}
+
+
+.heading {
+  padding-left: 50px;
+}
+.custom-dropdown {
+  width: 300px; /* Increase width */
+  background-color: orange !important; /* Set background color to orange */
+  color: white !important; /* Set text color to white */
+  border: none !important; /* Remove border */
+  border-radius: 6px !important;
+}
+
+.custom-dropdown .dropdown-toggle {
+  background-color: orange !important; /* Set background color to orange for the toggle button */
+  border: none !important; /* Remove border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  margin-left: 70px; /* Add space between the text and the dropdown icon */
+}
+
+.custom-dropdown .dropdown-menu {
+  width: 100%; /* Ensure the dropdown menu matches the button width */
+}
+
+.custom-dropdown .dropdown-item {
+  color: black !important; /* Set dropdown item text color */
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f1f1f1 !important; /* Set hover background color for dropdown items */
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 50px;
+}

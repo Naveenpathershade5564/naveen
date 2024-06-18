@@ -1,0 +1,121 @@
+.app-container {
+  position: relative;
+}
+
+.drawer {
+  position: fixed; /* Use fixed positioning to ensure it starts at the screen edge */
+  top: 0;
+  left: -300px; /* Initially off-screen */
+  width: 290px; /* Width of the drawer */
+  height: 100vh; /* Full height for visibility */
+  overflow-y: auto;
+  background-color: #fff;
+  transition: left 0.3s ease; /* Smooth transition */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visibility */
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+.drawer.open {
+  left: 0; /* Slide in when open */
+}
+.drawer::-webkit-scrollbar {
+  width: 0px; /* Hide scrollbar for WebKit browsers */
+}
+
+.menu-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.close-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; /* Adjust width to your preference */
+  height: 30px; /* Adjust height to your preference */
+  border-radius: 50%;
+  background-color: red; /* Adjust background color to your preference */
+  color: white;
+  font-size: 20px; /* Adjust font size to your preference */
+  cursor: pointer;
+}
+.custom-icon {
+  width: 28px; /* Adjust width as needed */
+  height: 28px; /* Adjust height as needed */
+  /* Adjust color as needed */
+  cursor: pointer;
+}
+
+.menu-content {
+  padding: 18px; /* Add padding for better appearance */
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-content a {
+  font-size: 15px; /* Adjust font size for better readability */
+  color: #333; /* Ensure the text is visible */
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  margin: 8px;
+  font-family: sans-serif;
+}
+a:hover {
+  color: red;
+}
+
+.menu-content h5 {
+  color: #333;
+  font-size: 19px;
+
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.icons {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.icon-image {
+  width: 33px;
+  height: 30px;
+  cursor: pointer;
+}
+.menu-contact {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+.menu-contact a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+
+  font-family: sans-serif;
+}
+.menu-contact a:hover {
+  color: red;
+}
+.menu-toofree {
+  padding-left: 40px;
+  color: #333;
+  font-size: 15px;
+
+  font-family: sans-serif;
+}
+.logo {
+  width: 135px; /* Set the desired width */
+  height: auto; /* Maintain the aspect ratio */
+}
