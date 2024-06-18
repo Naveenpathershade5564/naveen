@@ -1,0 +1,7 @@
+{
+    "eslint.ignoreUntitled": false,
+    "eslint.workingDirectories": [
+
+    ],
+    "eslint.execArgv": null
+}
